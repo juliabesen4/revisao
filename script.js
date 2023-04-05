@@ -141,34 +141,42 @@ cliques=0; // varialvel global
         if(d1.innerHTML == d2.innerHTML && d2.innerHTML == d3.innerHTML && d3.innerHTML!= "")
         {
             window.speechSynthesis.speak(new SpeechSynthesisUtterance("voce ganhou"));
+            limpar()
         }
         if(d3.innerHTML == d4.innerHTML && d4.innerHTML == d5.innerHTML && d5.innerHTML!= "")
         {
             window.speechSynthesis.speak(new SpeechSynthesisUtterance("voce ganhou"));
+            limpar()
         }
         if(d6.innerHTML == d4.innerHTML && d7.innerHTML == d7.innerHTML && d.innerHTML!= "")
         {
             window.speechSynthesis.speak(new SpeechSynthesisUtterance("voce ganhou"));
+            limpar()
         }
         if(d1.innerHTML == d4.innerHTML && d4.innerHTML == d7.innerHTML && d7.innerHTML!= "")
         {
             window.speechSynthesis.speak(new SpeechSynthesisUtterance("voce ganhou"));
+            limpar()
         }
         if(d2.innerHTML == d3.innerHTML && d3.innerHTML == d8.innerHTML && d8.innerHTML!= "")
         {
             window.speechSynthesis.speak(new SpeechSynthesisUtterance("voce ganhou"));
+            limpar()
         }
         if(d3.innerHTML == d6.innerHTML && d6.innerHTML == d9.innerHTML && d9.innerHTML!= "")
         {
             window.speechSynthesis.speak(new SpeechSynthesisUtterance("voce ganhou"));
+            limpar()
         }
         if(d3.innerHTML == d5.innerHTML && d5.innerHTML == d7.innerHTML && d7.innerHTML!= "")
         {
             window.speechSynthesis.speak(new SpeechSynthesisUtterance("voce ganhou"));
+            limpar()
         }
         if(d1.innerHTML == d5.innerHTML && d5.innerHTML == d9.innerHTML && d9.innerHTML!= "")
         {
             window.speechSynthesis.speak(new SpeechSynthesisUtterance("voce ganhou"));
+            limpar()
         }
     }
     
